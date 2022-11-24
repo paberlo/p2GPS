@@ -1,7 +1,5 @@
 FROM openjdk:8-jre
 
-MAINTAINER jgonzalezabes@gmail.com
-
 RUN mkdir -p /usr/local/app
 
 COPY drop/* /usr/local/app/
