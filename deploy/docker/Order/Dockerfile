@@ -4,11 +4,8 @@ MAINTAINER jgonzalezabes@gmail.com
 
 RUN mkdir -p /usr/local/app
 
-#WORKDIR /usr/local/app
-
 COPY drop/* /usr/local/app/
 COPY drop/run.sh usr/local/app/run.sh
-
 
 COPY drop/application.properties application.properties
 
